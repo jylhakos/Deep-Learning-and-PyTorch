@@ -84,7 +84,11 @@ Dataset/cats_and_dogs_small/
 
 # Generated plots and training outputs (can be regenerated)
 **/training_*.png
+!**/training_probabilities_history.png
+!**/training_regression_history.png
 **/plot_*.png
+!**/plot_probability_model.png
+!**/plot_regression_model.png
 **/loss_*.png
 **/accuracy_*.png
 **/history_*.png

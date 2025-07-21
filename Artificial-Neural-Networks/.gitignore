@@ -10,7 +10,11 @@ model.h5
 
 # Generated plots (but allow documentation images in R1/, R2/, etc.)
 training_*.png
+!training_probabilities_history.png
+!training_regression_history.png
 plot_*.png
+!plot_probability_model.png
+!plot_regression_model.png
 loss_*.png
 accuracy_*.png
 history_*.png
