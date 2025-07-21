@@ -289,7 +289,7 @@ Input Data (4 features)
     Adam Optimizer         ← Update all parameters adaptively
 ```
 
-**Why this architecture works?:**
+**Why this architecture works?**
 - **Linear layers** learn feature transformations
 - **ReLU activations** enable complex pattern recognition
 - **CrossEntropyLoss** guides learning toward correct classifications
