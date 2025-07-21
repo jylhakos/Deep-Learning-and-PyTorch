@@ -94,14 +94,15 @@ loss.backward()        # Compute gradients
 optimizer.step()       # Update parameters
 ```
 
-#### Adam vs other optimizers:
+#### Adam vs other optimizers
+
 | Optimizer | Advantages | Disadvantages |
 |-----------|------------|---------------|
 | **SGD** | Stable | Slow convergence, manual tuning |
 | **Adam** | Fast convergence, adaptive | Can overshoot, higher memory usage |
 | **RMSProp** | Good for RNNs | Less popular than Adam |
 
-### Neural Network architecture: Linear and ReLU layers
+### Neural Network architecture: **Linear and ReLU layers**
 
 #### **Linear layers (`nn.Linear`)**
 Linear layers perform matrix multiplication followed by bias addition:
@@ -151,7 +152,8 @@ class MultiLayerPerceptron(nn.Module):
         return self.layers(x)
 ```
 
-**Layer flow:**
+**Layers flow**
+
 1. **Input** → Linear → ReLU → Dropout
 2. **Hidden** → Linear → ReLU → Dropout  
 3. **Output** → Linear (no activation for logits)
@@ -160,14 +162,16 @@ class MultiLayerPerceptron(nn.Module):
 
 #### **CrossEntropyLoss (`nn.CrossEntropyLoss`)**
 
-**Purpose**: Multi-class classification
+**Purpose**
 
-**Mathematical formula**:
+Multi-class classification
+
+**Mathematical formula**
 ```
 CE = -Σ(y_true * log(y_pred))
 ```
 
-**PyTorch**:
+**PyTorch**
 ```python
 criterion = nn.CrossEntropyLoss()
 loss = criterion(predictions, targets)
@@ -182,14 +186,16 @@ loss = criterion(predictions, targets)
 
 #### **MSELoss (`nn.MSELoss`)**
 
-**Purpose**: Regression tasks
+**Purpose**
 
-**Mathematical formula**:
+Regression tasks
+
+**Mathematical formula**
 ```
 MSE = (1/n) * Σ(y_true - y_pred)²
 ```
 
-**PyTorch**:
+**PyTorch**
 ```python
 criterion = nn.MSELoss()
 loss = criterion(predictions, targets)
