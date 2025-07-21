@@ -375,6 +375,9 @@ Learn the Basics
 
 https://docs.pytorch.org/tutorials/beginner/basics/intro.html
 
+Learning PyTorch with Examples
+
+https://docs.pytorch.org/tutorials/beginner/pytorch_with_examples.html
 
 ## License
 
