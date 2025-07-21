@@ -18,7 +18,7 @@ generated_*.png
 output_*.png
 
 # Allow documentation images:
-# - R1/ folder contains educational diagrams
+# - R1/ folder contains diagrams
 # - Other static documentation images are allowed
 # Only exclude generated training plots
 

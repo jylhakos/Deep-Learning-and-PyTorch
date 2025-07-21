@@ -9,7 +9,7 @@
 - **Matplotlib**: Data visualization
 - **Pandas**: Data manipulation and analysis
 
-## Project Structure
+## Project
 
 ```
 Deep-Learning-and-PyTorch/
@@ -19,6 +19,11 @@ Deep-Learning-and-PyTorch/
 │   ├── actfunctions.py                          # Activation functions
 │   ├── Round1_ANN.ipynb                         # Jupyter notebook
 │   └── utils/                                   # Utility functions
+├── Components-Machine-Learning/                 # Machine Learning fundamentals
+│   ├── Components_of_ML.ipynb                   # Interactive notebook
+│   ├── Components_of_ML_PyTorch.py              # PyTorch ML components
+│   ├── Components of Machine Learning.py        # Scikit-learn version
+│   └── R0_data/                                 # Diagrams
 ├── Dataset/                                     # Training and test datasets
 │   ├── cats_and_dogs/
 │   └── cats_and_dogs_small/
@@ -363,6 +368,14 @@ for epoch in range(epochs):
         loss.backward()
         optimizer.step()
 ```
+
+## References
+
+Learn the Basics
+
+https://docs.pytorch.org/tutorials/beginner/basics/intro.html
+
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.

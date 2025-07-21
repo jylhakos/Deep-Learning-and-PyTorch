@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Verification script for PyTorch Deep Learning Environment
+Verification script for PyTorch Deep Learning
 """
 
 import sys
@@ -14,7 +14,7 @@ import pandas as pd
 def verify_environment():
     """Verify that all required packages are installed and working"""
     print("="*60)
-    print("PyTorch Deep Learning Environment Verification")
+    print("PyTorch Deep Learning verification")
     print("="*60)
     
     # Check Python version
@@ -74,7 +74,7 @@ def verify_environment():
     optimizer.zero_grad()
     loss.backward()
     optimizer.step()
-    print("✅ Backward pass completed successfully")
+    print("Backward pass completed successfully")
     
     # Test data loading
     from torch.utils.data import DataLoader, TensorDataset
@@ -85,7 +85,7 @@ def verify_environment():
     dataloader = DataLoader(dataset, batch_size=10, shuffle=True)
     
     batch_count = len(dataloader)
-    print(f"✅ DataLoader created with {batch_count} batches")
+    print(f"DataLoader created with {batch_count} batches")
     
     # Test Fashion-MNIST dataset
     try:
@@ -100,20 +100,20 @@ def verify_environment():
             download=True, 
             transform=transform
         )
-        print(f"✅ Fashion-MNIST dataset loaded: {len(dataset)} samples")
+        print(f"Fashion-MNIST dataset loaded: {len(dataset)} samples")
     except Exception as e:
         print(f"⚠️  Fashion-MNIST download failed: {e}")
     
     print("\n" + "="*60)
-    print("Environment Verification Summary")
+    print("Environment verification")
     print("="*60)
-    print("✅ Python environment: OK")
-    print("✅ PyTorch installation: OK")
-    print("✅ Basic tensor operations: OK")
-    print("✅ Neural network creation: OK")
-    print("✅ Training components: OK")
-    print("✅ Data loading: OK")
-    print("✅ All systems ready for deep learning!")
+    print("Python environment: OK")
+    print("PyTorch installation: OK")
+    print("Basic tensor operations: OK")
+    print("Neural network creation: OK")
+    print("Training components: OK")
+    print("Data loading: OK")
+    print("Systems ready for deep learning.")
     print("="*60)
 
 if __name__ == "__main__":
