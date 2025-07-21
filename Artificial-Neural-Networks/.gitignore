@@ -1,0 +1,39 @@
+# PyTorch model files
+*.pth
+*.pkl
+fashion_mnist_model.pth
+regression_model.pth
+model_256.h5
+model_4x64.h5
+model_reg.h5
+model.h5
+
+# Generated plots (but allow documentation images in R1/, R2/, etc.)
+training_*.png
+plot_*.png
+loss_*.png
+accuracy_*.png
+history_*.png
+generated_*.png
+output_*.png
+
+# Allow documentation images:
+# - R1/ folder contains educational diagrams
+# - Other static documentation images are allowed
+# Only exclude generated training plots
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data folders
+data/
+
+# Temporary files
+*.tmp
+*.log
