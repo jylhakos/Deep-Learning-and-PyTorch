@@ -1,4 +1,4 @@
-# Deep Learning and PyTorch
+# Deep-Learning-PyTorch
 
 ## Technologies
 - **Python**: The programming language

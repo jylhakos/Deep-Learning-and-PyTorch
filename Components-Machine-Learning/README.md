@@ -1,4 +1,4 @@
-# Components-Machine-Learning  - PyTorch
+# Components-Machine-Learning-PyTorch
 
 This directory contains files demonstrating the components of Machine Learning using **PyTorch** and ML libraries.
 
@@ -74,12 +74,14 @@ class LogisticRegressionPyTorch(nn.Module):
 
 **Adam** (Adaptive Moment Estimation) is one of optimization algorithms in deep learning. Adam combines properties of AdaGrad and RMSProp optimizers.
 
-#### Features:
+#### Features
+
 - **Adaptive Learning Rates**: Automatically adjusts learning rates for each parameter
 - **Momentum**: Uses exponentially decaying average of past gradients
 - **Bias Correction**: Corrects bias in moment estimates during early training
 
-#### How Adam works?:
+#### How Adam Optimizer works?
+
 ```python
 import torch.optim as optim
 
@@ -112,10 +114,9 @@ linear_layer = nn.Linear(in_features=4, out_features=64)
 # Output: (batch_size, 64)
 ```
 
-**What it does?:**
+**What Linear layer does?**
 - Transforms input features to different dimensional space
 - Learns weights (W) and biases (b) during training
-- Foundation of neural network learning
 
 #### **ReLU Activation function (`nn.ReLU`)**
 ReLU (Rectified Linear Unit) introduces non-linearity:
@@ -125,7 +126,7 @@ relu = nn.ReLU()
 # f(x) = max(0, x)
 ```
 
-**Why ReLU is important?:**
+**Why ReLU is important?**
 - **Non-linearity**: Enables learning complex patterns
 - **Computational Efficiency**: Simple max(0, x) operation
 - **Gradient Flow**: Helps avoid vanishing gradient problem
@@ -252,7 +253,7 @@ for epoch in range(num_epochs):
         optimizer.step()       # Adam updates parameters
 ```
 
-**What happens during training?:**
+**What happens during training?**
 1. **Forward Pass**: Data flows through Linear→ReLU→Linear→ReLU→Linear layers
 2. **Loss Calculation**: CrossEntropyLoss compares predictions with true labels
 3. **Backward Pass**: Gradients flow back through all layers
