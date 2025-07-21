@@ -1,4 +1,4 @@
-# Neural Networks (Artificial)
+# Artificial-Neural-Networks
 
 The goal of Machine learning (ML) is to find a hypothesis that allows to predict the label of a data point based on its features.
 
@@ -175,7 +175,7 @@ keras.utils.plot_model(
 
 ```
 
-![alt text](https://github.com/jylhakos/Deep-Learning-with-Python/blob/main/Artificial-Neural-Networks/plot_probability_model.png?raw=true)
+![alt text](https://github.com/jylhakos/Deep-Learning-and-PyTorch/blob/main/Artificial-Neural-Networks/plot_probability_model.png?raw=true)
 
 **Loss Function and Optimizer**
 
@@ -220,7 +220,7 @@ if training==True:
 
 ```
 
-![alt text](https://github.com/jylhakos/Deep-Learning-with-Python/blob/main/Artificial-Neural-Networks/training_probabilities_history.png?raw=true)
+![alt text](https://github.com/jylhakos/Deep-Learning-and-PyTorch/blob/main/Artificial-Neural-Networks/training_probabilities_history.png?raw=true)
 
 **Evaluation**
 
@@ -245,7 +245,7 @@ actfunctions()
 
 The gradient is a function for demonstrating the local gradient of the relu activation function.
 
-![alt text](https://github.com/jylhakos/Deep-Learning-with-Python/blob/main/Artificial-Neural-Networks/gradient_relu_activation.png?raw=true)
+![alt text](https://github.com/jylhakos/Deep-Learning-and-PyTorch/blob/main/Artificial-Neural-Networks/gradient_relu_activation.png?raw=true)
 
 
 **ANN for regression**
@@ -300,7 +300,7 @@ keras.utils.plot_model(
 )
 
 ```
-![alt text](https://github.com/jylhakos/Deep-Learning-with-Python/blob/main/Artificial-Neural-Networks/plot_regression_model.png?raw=true)
+![alt text](https://github.com/jylhakos/Deep-Learning-and-PyTorch/blob/main/Artificial-Neural-Networks/plot_regression_model.png?raw=true)
 
 
 **Training**
@@ -316,7 +316,7 @@ if training==True:
 
 ```
 
-![alt text](https://github.com/jylhakos/Deep-Learning-with-Python/blob/main/Artificial-Neural-Networks/training_regression_history.png?raw=true)
+![alt text](https://github.com/jylhakos/Deep-Learning-and-PyTorch/blob/main/Artificial-Neural-Networks/training_regression_history.png?raw=true)
 
 
 **Loss on test set**
@@ -332,5 +332,3 @@ print('MSE loss on test dataset:', test_loss)
 The weights and biases are parameters of a model.
 
 The hyperparameters of a model are examples of number of layers, number of units, activation function, learning rate, batch size, number of epochs and optimizer.
-
-

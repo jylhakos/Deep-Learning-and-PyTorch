@@ -1,4 +1,4 @@
-# Machine Learning Components - PyTorch
+# Components-Machine-Learning  - PyTorch
 
 This directory contains files demonstrating the components of Machine Learning using **PyTorch** and ML libraries.
 
