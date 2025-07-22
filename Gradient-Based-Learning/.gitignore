@@ -1,0 +1,30 @@
+
+coursedata/**/*
+
+.ipynb_checkpoints
+
+__pycache__
+
+*.h5
+
+# Python Virtual Environment
+pytorch_env/
+venv/
+env/
+
+# Binary files (exclude from git)
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# But allow image files for documentation
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
+
+# Dataset files
+Dataset/

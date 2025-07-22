@@ -1,0 +1,39 @@
+
+# Dataset directories
+Dataset/**/*
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Python cache
+__pycache__
+
+# TensorFlow/Keras models
+*.h5
+
+# PyTorch models
+*.pth
+*.pt
+
+# Python virtual environment
+pytorch_env/
+venv/
+env/
+
+# Python bytecode
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Keep image files for documentation
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif

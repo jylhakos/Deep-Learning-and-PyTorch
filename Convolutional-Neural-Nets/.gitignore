@@ -1,0 +1,44 @@
+# Ignore dataset files except for images used in documentation
+Dataset/**/*
+!Dataset/**/*.png
+!Dataset/**/*.jpg
+!Dataset/**/*.jpeg
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+
+# Model files
+*.h5
+*.pth
+*.pt
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Data directory (downloaded datasets)
+data/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Allow PNG and JPG files in project root and R3 directory (for documentation)
+!*.png
+!*.jpg
+!*.jpeg
+!R3/*.png
+!R3/*.jpg
+!R3/*.jpeg
