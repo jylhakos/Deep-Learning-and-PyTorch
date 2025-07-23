@@ -8,7 +8,9 @@ This project implements deep learning models using **Recurrent Neural Networks (
 
 ### **What is exploratory data analysis in Time-Series?**
 
-**Exploratory Data Analysis (EDA)** in time-series is the systematic investigation of temporal datasets to understand patterns, relationships, and characteristics that are crucial for building effective forecasting models. Unlike traditional EDA, time-series EDA focuses on:
+**Exploratory Data Analysis (EDA)** in time-series is the systematic exploration of temporal datasets to recognize patterns, relationships, and characteristics that are essential for building forecasting models.
+
+EDA in time-series focuses on:
 
 #### **Temporal pattern discovery**
 - **Trend Analysis**: Long-term increases or decreases in electricity consumption
@@ -18,7 +20,7 @@ This project implements deep learning models using **Recurrent Neural Networks (
 
 #### **Time-Series techniques**
 - **Autocorrelation Analysis**: How current values relate to past values
-- **Decomposition**: Separating trend, seasonal, and residual components  
+- **Decomposition**: Separating trend, seasonal, and residual components
 - **Lag Analysis**: Optimal lookback periods for predictive modeling
 - **Changepoint Detection**: Identifying structural breaks in the data
 
