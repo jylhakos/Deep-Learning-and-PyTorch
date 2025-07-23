@@ -1,0 +1,25 @@
+# PyTorch and related packages
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Scientific computing
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# Jupyter and IPython
+jupyter>=1.0.0
+ipython>=8.0.0
+ipywidgets>=8.0.0
+
+# For data handling
+pillow>=9.0.0
+
+# Optional: For enhanced plotting
+seaborn>=0.11.0
+
+# Optional: For progress bars during training
+tqdm>=4.60.0
+
+# Optional: For model visualization
+torchinfo>=1.8.0
