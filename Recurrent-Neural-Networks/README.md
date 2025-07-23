@@ -4,7 +4,7 @@
 
 This project implements deep learning models using **Recurrent Neural Networks (RNN)** and **Long Short-Term Memory (LSTM)** networks to forecast daily electricity consumption in the **Center-North region of Italy**, with a specific focus on **Lazio region**. The models are built using **PyTorch** and feature **real-time weather integration** using the **Open-Meteo API** and **geocoding services** to automatically fetch tomorrow's temperature for accurate forecasting.
 
-## Exploratory Data Analysis (EDA) for Time-Series Forecasting
+## Exploratory Data Analysis (EDA) for time-series forecasting
 
 ### **What is exploratory data analysis in Time-Series?**
 
