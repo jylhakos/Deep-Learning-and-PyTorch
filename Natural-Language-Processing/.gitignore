@@ -1,0 +1,31 @@
+
+# Dataset folder (excluded from git)
+coursedata/**/*
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Python cache
+__pycache__
+
+# Model files
+*.h5
+*.pth
+model_pytorch.pth
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python compiled files
+*.pyc
+
+# Allow PNG and JPG files (for README.md content)
+!*.png
+!*.jpg
+!*.jpeg
+
+# OS files
+.DS_Store
+Thumbs.db
