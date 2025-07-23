@@ -4,7 +4,7 @@
 
 This project implements deep learning models using **Recurrent Neural Networks (RNN)** and **Long Short-Term Memory (LSTM)** networks to forecast daily electricity consumption in the **Center-North region of Italy**, with a specific focus on **Lazio region**. The models are built using **PyTorch** and feature **real-time weather integration** using the **Open-Meteo API** and **geocoding services** to automatically fetch tomorrow's temperature for accurate forecasting.
 
-## 📊 Exploratory Data Analysis (EDA) for Time-Series Forecasting
+## Exploratory Data Analysis (EDA) for Time-Series Forecasting
 
 ### **What is exploratory data analysis in Time-Series?**
 
@@ -26,9 +26,9 @@ This project implements deep learning models using **Recurrent Neural Networks (
 
 Our project demonstrates **advanced multi-dataset EDA** by combining electricity consumption with meteorological data to uncover complex relationships:
 
-#### ** Cross-Dataset correlation discovery:**
+#### **Cross-Dataset correlation discovery**
 
-**1. Primary dataset integration:**
+**1. Primary dataset integration**
 ```python
 # Electricity Consumption (Target Variable)
 electricity_data = load_electrical_consumption_2024()  # 15-min intervals → daily aggregation
@@ -36,15 +36,15 @@ electricity_data = load_electrical_consumption_2024()  # 15-min intervals → da
 temperature_data = load_temperature_2024()            # Daily weather data from Roma, Lazio
 ```
 
-**2. Multi-Dimensional correlation analysis:**
+**2. Multi-Dimensional correlation analysis**
 - **Linear Correlations**: Direct temperature-load relationships
 - **Non-Linear Patterns**: U-shaped temperature dependency curves
 - **Seasonal Cross-Correlations**: Different relationships in winter vs summer
 - **Lag Cross-Correlations**: How temperature affects electricity consumption with time delays
 
-#### **🌡️ Temperature-Load Multi-Dataset analysis:**
+#### **🌡️ Temperature-Load Multi-Dataset analysis**
 
-**Correlation discovery process:**
+**Correlation discovery process**
 ```python
 # Seasonal correlation patterns
 winter_corr = electricity_winter.corr(temperature_winter)    # Heating demand correlation
@@ -52,7 +52,7 @@ summer_corr = electricity_summer.corr(temperature_summer)    # Cooling demand co
 comfort_corr = electricity_mild.corr(temperature_mild)      # Baseline consumption correlation
 ```
 
-**Multi-Dataset insights:**
+**Multi-Dataset insights**
 - **Winter Correlation**: `r = -0.65` (negative: colder → more heating)
 - **Summer Correlation**: `r = +0.78` (positive: hotter → more cooling)  
 - **Comfort Zone**: `r = 0.12` (minimal: stable baseline consumption)
@@ -120,7 +120,7 @@ Our project includes a comprehensive **Jupyter Notebook** (`RNN_LSTM_Electricity
 
 This EDA foundation enables our RNN/LSTM models to achieve state-of-the-art performance in electricity demand forecasting by leveraging the discovered multi-dataset correlations.
 
-## 🌟 Real-time weather (temperature) integration
+## ☀️ Real-time weather (temperature) integration
 
 ### Features
 - **Automatic weather fetching**: Get tomorrow's temperature automatically using Open-Meteo API
@@ -614,7 +614,7 @@ def auto_forecast():
 
 ## API usage
 
-### 🌟 Automatic forecasting with real-rime weather
+### Automatic forecasting with real-rime weather
 
 Get tomorrow's electricity consumption forecast automatically using real-time weather data.
 
