@@ -48,6 +48,10 @@ GPT:                      ❌ → [Decoder] (No Encoder)
 
 **Yes** BERT is **directly based** on the Transformer architecture from Google's paper.
 
+![alt text](https://github.com/jylhakos/Deep-Learning-and-PyTorch/blob/main/Transformer-Tokenizer-Embeddings/attention-is-all-you-need.png?raw=true)
+
+Figure: [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
+
 **Timeline:**
 1. **2017**: Google publishes "Attention Is All You Need" → Introduces Transformer
 2. **2018**: Google releases BERT → Uses Transformer **Encoder** 
