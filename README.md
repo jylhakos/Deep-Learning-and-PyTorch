@@ -92,37 +92,37 @@ Deep-Learning-and-PyTorch/
 
 A comprehensive deep learning project using PyTorch for neural network implementation and training. This repository contains multiple specialized modules covering different aspects of deep learning:
 
-### 🧠 Core Neural Networks
+### Neural Networks
 - **Artificial-Neural-Networks/**: Basic feedforward neural networks, activation functions, and fundamental concepts
 - **Components-Machine-Learning/**: Machine learning fundamentals with both traditional ML and PyTorch implementations
 
-### 🔬 Advanced Architectures  
+### Architectures
 - **Convolutional-Neural-Nets/**: CNN implementations for image classification and computer vision
 - **Recurrent-Neural-Networks/**: RNN and LSTM networks for time series forecasting and sequential data
 - **Generative-Adversarial-Networks/**: GAN implementations for generative modeling
 - **Transformer-Tokenizer-Embeddings/**: Modern transformer architectures, BERT, and attention mechanisms
 
-### 📊 Training & Optimization
+### Training & optimization
 - **Gradient-Based-Learning/**: Optimization algorithms, batch vs mini-batch learning, SGD variants
 - **Regularization/**: Techniques to prevent overfitting including data augmentation and transfer learning
 
-### 🌐 Natural Language Processing
+### Natural Language Processing
 - **Natural-Language-Processing/**: NLP implementations with word embeddings, tokenization, and language models
 
-## 📚 Learning Progression
+## Learning Progression
 
 For optimal learning, follow this recommended sequence:
 
-### 🎯 **Beginner Level**
+### **Beginner Level**
 1. **Components-Machine-Learning/**: Start here to understand ML fundamentals
 2. **Artificial-Neural-Networks/**: Basic neural network concepts and PyTorch basics
 
-### 🚀 **Intermediate Level**  
+### **Intermediate Level**  
 3. **Gradient-Based-Learning/**: Optimization techniques and training strategies
 4. **Convolutional-Neural-Nets/**: Image processing and computer vision
 5. **Regularization/**: Preventing overfitting and improving model performance
 
-### 🎓 **Advanced Level**
+### **Advanced Level**
 6. **Recurrent-Neural-Networks/**: Sequential data and time series
 7. **Natural-Language-Processing/**: Text processing and embeddings
 8. **Generative-Adversarial-Networks/**: Generative modeling
