@@ -302,7 +302,7 @@ merged_data = pd.merge(electricity_daily, weather_daily, on='date')
 # Create multi-dimensional feature matrix
 feature_matrix = np.concatenate([
     load_normalized,     # Shape: (n_days, 1)
-    temp_normalized,     # Shape: (n_days, 1) 
+    temp_normalized,     # Shape: (n_days, 1)
     day_of_year,        # Shape: (n_days, 1)
     season_features     # Shape: (n_days, 4)
 ], axis=1)              # Final: (n_days, 7)
